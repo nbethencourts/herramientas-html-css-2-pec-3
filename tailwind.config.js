@@ -12,6 +12,14 @@ module.exports = {
       fontFamily: {
         sans: ['Roboto', 'sans-serif'], 
       },
+      fontSize: {
+        'h1': '2.5rem',
+        'h2': '2rem',
+        'h3': '1.5rem',
+        'h4': '1.25rem',
+        'h5': '1rem',
+        'h6': '.85rem',
+      },
     },
   },
   plugins: [],
