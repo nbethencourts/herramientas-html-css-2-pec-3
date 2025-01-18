@@ -14,78 +14,60 @@
     <div
       class="flex flex-row flex-wrap gap-10 items-stretch justify-center p-10"
     >
-      <div class="card">
-        <img
-          src="./assets/images/persona1.jpg"
-          class="card-img-top rounded"
-          alt="persona"
-        />
-        <div class="p-2 flex-auto">
-          <h5 class="text-xl">Alberto Jiménez Peña</h5>
-          <p>Business Consultant, IC Consult.</p>
-        </div>
-      </div>
-      <div class="card">
-        <img
-          src="./assets/images/persona2.jpg"
-          class="card-img-top rounded"
-          alt="persona"
-        />
-        <div class="p-2">
-          <h5 class="text-xl">Begoña Vázquez Montalvo</h5>
-          <p>Directora de Control de Riesgos no Financieros y CISO, Unicaja.</p>
-        </div>
-      </div>
-      <div class="card">
-        <img
-          src="./assets/images/persona3.jpg"
-          class="card-img-top rounded"
-          alt="persona"
-        />
-        <div class="p-2">
-          <h5 class="text-xl">Alfredo Rodríguez Casado</h5>
-          <p>Adjunto al Subdirector, Centro Criptológico Nacional (CCN).</p>
-        </div>
-      </div>
-      <div class="card">
-        <img
-          src="./assets/images/persona4.jpg"
-          class="card-img-top rounded"
-          alt="persona"
-        />
-        <div class="p-2">
-          <h5 class="text-xl">Raquel González Villalba</h5>
-          <p>
-            Directora de Ingeniería de Sistemas del Sur de Europa, Palo Alto
-            Networks.
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img
-          src="./assets/images/persona5.jpg"
-          class="card-img-top rounded"
-          alt="persona"
-        />
-        <div class="p-2">
-          <h5 class="text-xl">Mar Sánchez García</h5>
-          <p>Country Manager Iberia y Latam, Cyber Guru.</p>
-        </div>
-      </div>
-      <div class="card">
-        <img
-          src="./assets/images/persona6.jpg"
-          class="card-img-top rounded"
-          alt="persona"
-        />
-        <div class="p-2">
-          <h5 class="text-xl">Lorenzo Santos Antúnez</h5>
-          <p>
-            CTO & Owner at @Securizame, Editor de @secbydefault, Ponente
-            internacional de conferencias de seguridad.
-          </p>
-        </div>
-      </div>
+      <include
+        src="./views/card.html"
+        locals='{
+          "imgSrc": "./assets/images/persona1.jpg",
+          "imgAlt": "persona",
+          "cardTitle": "Alberto Jiménez Peña",
+          "cardText": "Business Consultant, IC Consult."
+      }'
+      ></include>
+      <include
+        src="./views/card.html"
+        locals='{
+          "imgSrc": "./assets/images/persona2.jpg",
+          "imgAlt": "persona",
+          "cardTitle": "Begoña Vázquez Montalvo",
+          "cardText": "Directora de Control de Riesgos no Financieros y CISO, Unicaja."
+      }'
+      ></include>
+      <include
+        src="./views/card.html"
+        locals='{
+        "imgSrc": "./assets/images/persona3.jpg",
+        "imgAlt": "persona",
+        "cardTitle": "Alfredo Rodríguez Casado",
+        "cardText": "Adjunto al Subdirector, Centro Criptológico Nacional (CCN)."
+      }'
+      ></include>
+      <include
+        src="./views/card.html"
+        locals='{
+            "imgSrc": "./assets/images/persona4.jpg",
+            "imgAlt": "persona",
+            "cardTitle": "Raquel González Villalba",
+            "cardText": "Directora de Ingeniería de Sistemas del Sur de Europa, Palo Alto Networks."
+        }'
+      ></include>
+      <include
+        src="./views/card.html"
+        locals='{
+            "imgSrc": "./assets/images/persona5.jpg",
+            "imgAlt": "persona",
+            "cardTitle": "Mar Sánchez García",
+            "cardText": "Country Manager Iberia y Latam, Cyber Guru."
+        }'
+      ></include>
+      <include
+        src="./views/card.html"
+        locals='{
+            "imgSrc": "./assets/images/persona6.jpg",
+            "imgAlt": "persona",
+            "cardTitle": "Lorenzo Santos Antúnez",
+            "cardText": "CTO & Owner at @Securizame, Editor de @secbydefault, Ponente internacional de conferencias de seguridad."
+        }'
+      ></include>
     </div>
     <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script>
