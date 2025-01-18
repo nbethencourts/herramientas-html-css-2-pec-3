@@ -99,27 +99,15 @@
               bloquea la pantalla del sistema o ciertos archivos hasta que se
               abone una cantidad.
             </p>
-            <figure>
-              <blockquote
-                class="mb-4 border-l-4 text-lg sm:text-xl border-yellow-400 pl-4"
-              >
-                <p>
-                  Se estima que los ataques de ransomware aumentaron un 200% en
-                  los últimos cinco años.
-                </p>
-                <figcaption
-                  class="blockquote-footer font-light before:content-['—'] text-gray-500 text-sm sm:text-lg"
-                >
-                  Eugene Kaspersky
-                  <cite
-                    class="font-light leading-relaxed"
-                    title="De malware privado a ransomware como servicio: el auge de Mallox"
-                    >De malware privado a ransomware como servicio: el auge de
-                    Mallox</cite
-                  >
-                </figcaption>
-              </blockquote>
-            </figure>
+            <include
+              src="./views/cite.html"
+              locals='{
+                  "text": "Se estima que los ataques de ransomware aumentaron un 200% en los últimos cinco años.",
+                  "author": "Eugene Kaspersky",
+                  "title": "De malware privado a ransomware como servicio: el auge de Mallox",
+                  "cite": "De malware privado a ransomware como servicio: el auge de Mallox"
+              }'
+            ></include>
           </div>
         </div>
         <div class="justify-center mt-3 mb-3">
