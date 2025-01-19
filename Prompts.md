@@ -25,3 +25,6 @@ Debajo del titulo "Contestants" pon con un tamaño de fuente la mitad del titulo
 Debajo de "The Recipes" con una letra un poco más pequeña que "The Recipes" y con el mismo color de "This section describes the recipes of the best contestants", poner "These are the recipes of the best contestants".
 En las cards los nombres de los autores ponlo más negrita y la descripción en negrita pero con el mismo color que pusiste "This section describes the recipes of the best contestants".
 Los iconos de redes sociales me los sigues poniendo muy arriba, deben estar casi al final de la página
+6 -. La parte de "The Recipes These are the recipes of the best contestants" lo debes alinear a la izquierda.
+En las card, el texto que va debajo del autor tiene que ir con un color más claro. El título de la card tiene que ser un poco más pequeño.
+En el pie de página, ahora los iconos de redes sociales están bien situados pero "Cooking Contest 2024 Edition" que va por encima tiene que ir más arriba, a la altura de las cabeceras de las columnas que están a la derecha.
