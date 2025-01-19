@@ -6,3 +6,7 @@ El listado de cards con recipes está muy bien pero faltaría a la izquierda de 
 This Cajun seafood pasta recipe is a hot one, but delicious!" por ejemplo, un avatar del participante de forma redonda.
 El pie de la pagina habría que rehacerlo. Debería de haber una línea separadora donde se inicia el pie de página. Y el pie sería de la siguiente forma:
 A la izquierda Cooking Contest 2024 Edition y debajo los iconos de redes sociales como facebook, linkedin, youtube e instagram. Y a la derecha tres columnas: Recipes, Contestants y Contest editions
+3 -.El menu de enlaces (Home, The contest,Recipes y Contestants) aparece debajo de "Cooking Contest 2024 Edition", cuando debería de aparecer a la derecha de la pagína, todo en la misma línea. Además, Home, The contest,Recipes quiero que esté en el mismo color que "Cooking Contest 2024 Edition" en vez de azul como sale ahora.
+El título "Contestants" debería aparecer más grande, ya que es el título principal.
+En cuanto al pie: para las redes sociales utiliza para los iconos el marcado de fontawesome (que yo me encargo de importar fontawesome). Y en las tres columnas de la derecha, dale a las cabeceras (títulos Recipes,
+Contestants y Contest editions) una fuente más bold. Y debajo, en cada columna y separado por fila lo siguiente: Para la columna Recipes: Cajun seafood pasta, Cedar planked salmon, Poulet au vinagre. Columna Contestans: John Cooper, Marta Alonso, Mary Ann Stones. Columna Contest editions: 2024, 2023, 2022
