@@ -17,18 +17,20 @@
         background-color: #f9f9f9;
         color: #333;
         line-height: 1.6;
-        padding: 20px;
+        padding: 0 20px;
+        max-width: 1200px;
+        margin: 0 auto;
       }
 
       header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
       }
 
       header h1 {
-        font-size: 2.5em;
+        font-size: 1.8em;
         color: #333;
       }
 
@@ -48,6 +50,7 @@
         color: #fff;
         padding: 5px 10px;
         border-radius: 5px;
+        align-self: center;
       }
 
       header nav a.button:hover {
@@ -60,14 +63,14 @@
 
       .main-title {
         text-align: center;
-        margin-bottom: 20px;
-        font-size: 3em;
+        margin-bottom: 30px;
+        font-size: 3.5em;
         font-weight: bold;
       }
 
       .main-image {
         display: block;
-        margin: 0 auto;
+        margin: 0 auto 40px auto;
         max-width: 100%;
         border-radius: 15px;
       }
@@ -75,7 +78,7 @@
       .recipes {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 20px;
+        gap: 30px;
       }
 
       .recipe {
@@ -106,7 +109,7 @@
 
       footer {
         border-top: 1px solid #ddd;
-        padding: 20px 0;
+        padding: 40px 0;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
@@ -124,6 +127,7 @@
       footer .social-icons {
         display: flex;
         gap: 10px;
+        margin-top: 20px;
       }
 
       footer .social-icons i {

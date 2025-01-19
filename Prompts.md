@@ -10,3 +10,13 @@ A la izquierda Cooking Contest 2024 Edition y debajo los iconos de redes sociale
 El título "Contestants" debería aparecer más grande, ya que es el título principal.
 En cuanto al pie: para las redes sociales utiliza para los iconos el marcado de fontawesome (que yo me encargo de importar fontawesome). Y en las tres columnas de la derecha, dale a las cabeceras (títulos Recipes,
 Contestants y Contest editions) una fuente más bold. Y debajo, en cada columna y separado por fila lo siguiente: Para la columna Recipes: Cajun seafood pasta, Cedar planked salmon, Poulet au vinagre. Columna Contestans: John Cooper, Marta Alonso, Mary Ann Stones. Columna Contest editions: 2024, 2023, 2022
+4 -. El título "Cooking Contest 2024 Edition" lo puedes reducir, siendo un poco más grande que la letra del menu enlaces de la derecha.
+El menu de la derecha está muy bien pero Contestants no está bien alienado, está un poco más abajos que los enlaces que están a su izquierda.
+Para toda la pagina, me gustaría que el ancho fuera como me has dejado ahora el ancho de la foto principal, es decir, que quede el mismo espacio por los lados de la página que en la foto.
+Además aumenta un poco el espacio entre la foto y lo que va debajo, y las cards y el pie de página.
+Actualiza las rutas de las fotos de la sitguiente forma:
+foto principal: ./assets/images/main-photo.jpg
+foto de John Cooper: ./assets/images/persona1.jpg
+Marta Alonso: ./assets/images/persona2.jpg
+Mary Ann Stones: ./assets/images/persona3.jpg
+Además, los iconos de las redes sociales deben estar alineados con la ultima fila de las columnas de la derecha, por lo que se tendrían que bajar un poco más de lo que están ahora
