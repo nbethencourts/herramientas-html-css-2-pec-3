@@ -20,3 +20,8 @@ foto de John Cooper: ./assets/images/persona1.jpg
 Marta Alonso: ./assets/images/persona2.jpg
 Mary Ann Stones: ./assets/images/persona3.jpg
 Además, los iconos de las redes sociales deben estar alineados con la ultima fila de las columnas de la derecha, por lo que se tendrían que bajar un poco más de lo que están ahora
+5 -. Ahora deja más espacio por encima y por debajo del titulo "Contestants".
+Debajo del titulo "Contestants" pon con un tamaño de fuente la mitad del titulo, más clara y centrado "This section describes the recipes of the best contestants".
+Debajo de "The Recipes" con una letra un poco más pequeña que "The Recipes" y con el mismo color de "This section describes the recipes of the best contestants", poner "These are the recipes of the best contestants".
+En las cards los nombres de los autores ponlo más negrita y la descripción en negrita pero con el mismo color que pusiste "This section describes the recipes of the best contestants".
+Los iconos de redes sociales me los sigues poniendo muy arriba, deben estar casi al final de la página
